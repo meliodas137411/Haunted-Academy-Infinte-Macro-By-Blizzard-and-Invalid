@@ -1,4 +1,4 @@
-/*
+﻿/*
 
 huge thanks to:
 yuh for heavily inspiring  the macro + some functions
@@ -38,6 +38,8 @@ LoadingScreen := "|<>*87$90.U07zzzzzzzzzzzz000Tzzzzzzzzzzz0007zzzzzzzzzzz0001zzz
 ReplayText := "|<>*101$71.Tk0000Dk0001zs0000FU00000Q0001V000000A00032000000M00064000000Py7zA8TzwD3kw7NbMFnD8m4Vk3U3ka08P0D30703VM0ES0Q406033U0ksE08QA46711kkU0k0MQAC73U10100ksMMC7U60107UkksQB08D23j01Uk0P0kK40C070k0m10Y40A0O1U1a63AQ0sFa3kXAAyDjzky7xzwEkkA7tV01U0VVU000320000220000640000AA0000AM0000AE0000DU0000TU0000600000C1"
 DeathText := "|<>*100$22.zzzzUzUw3w3l7l6ASAMtstXbXaASAQFgFkAEDUlUzzzzU"
 Text := "|<>*30$71.0000007zzzzy000000Dzzzzw000000Tzzzzs000000zzzzzk000001zzzzzU000003zzzzz0000007zzzzy000000Dzzzzw000000Tzzzzs000000zzzzzk000001zzzzzU000003zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+
+cancel_boton := "|<>*138$82.zzwDzzzzzzzszzzz0DzzzzzzzXzzzs0TzzzzzzyDzzz01zzzzzzzszzzsDjzzzzrz7XzzzVzw0k3w3k6DzzyDzU307U60Mzzzszw0A0A0kEXzzzXzkkkkkz72DzzyDz7X7X7w08zzzsTwQASATk1XzzzkMk0lskX3y7zzz01037X040MDzzy060ASC0M1Uzzzy1y8lsy7k73zU"
 
 global lose_streak := 0
 
@@ -108,6 +110,17 @@ GoToRaids() {
     SendInput ("{Tab}")
     AddToLog("For support, make sure to click on the discord icon above")
     loop {
+        if (ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)) {
+            loop{
+                AddToLog ("esperand sair da capsula")
+                if (!ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)){
+                    AddToLog  ("esperando entrar na fase") 
+
+                    break
+                }
+            }
+            break
+        }
         if (ok := FindText(&X, &Y, 10, 70, 350, 205, 0, 0, LoadingScreen)) {
             AddToLog("Found LoadingScreen, stopping loop")
             break
@@ -656,25 +669,27 @@ AntiCaptcha() {
 
 OnSpawnSetup() {
     SendInput ("{Tab}")
-    LookDown()
-    Sleep 200
     TPtoSpawn()
+    Sleep 200
+    LookDown()
     Sleep 200
 
     loop {
         Sleep 500
-        if PixelSearch(&Px, &Py, 385, 0, 430, 25, 0x091512) {
+        if PixelSearch(&Px, &Py, 385, 0, 430, 25, 0x091512,0) {
             AddToLog("Correct Angle")
             break
         }
         else {
-            AddToLog("Incorrect Angle. Turning again.")
-            SendInput ("{Left up}")
-            Sleep 50
-            SendInput ("{Left down}")
-            Sleep 50
-            SendInput ("{Left up}")
-            KeyWait "Left" ; Wait for "d" to be fully processed
+            AddToLog("Incorrect Angle. Performing 90-degree turn.")
+            ; Simulate pressing the "Left" key for a 90-degree turn
+            SendInput("{Left down}")  ; Hold the "Left" key down
+            Sleep 750                 ; Adjust this value to control the turn duration (90 degrees)
+            SendInput("{Left up}")    ; Release the "Left" key
+            Sleep 100
+            ; Ensure the key is fully processed before proceeding
+            KeyWait "Left"
+            Sleep 1000                ; Optional: Add a delay after the turn if needed
         }
     }
 
@@ -697,10 +712,11 @@ Reconnect() {
         ; Use Roblox deep linking to reconnect
         Run("roblox://placeID=" 8304191830)
         Sleep 2000
+        BetterClick(555, 444)
         if WinExist(RobloxWindow) {
             WinMove(27, 15, 800, 600, RobloxWindow)
             WinActivate(RobloxWindow)
-            Sleep 1000
+            Sleep 5000
         }
         loop {
             AddToLog("Reconnecting to Roblox...")
@@ -710,6 +726,7 @@ Reconnect() {
                 return GoToRaids() ; Check for challenges in the lobby
             }
             else {
+                BetterClick(555, 444)
                 Reconnect()
             }
         }
