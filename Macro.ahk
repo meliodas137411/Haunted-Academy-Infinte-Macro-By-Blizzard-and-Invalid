@@ -38,9 +38,36 @@ LoadingScreen := "|<>*87$90.U07zzzzzzzzzzzz000Tzzzzzzzzzzz0007zzzzzzzzzzz0001zzz
 ReplayText := "|<>*101$71.Tk0000Dk0001zs0000FU00000Q0001V000000A00032000000M00064000000Py7zA8TzwD3kw7NbMFnD8m4Vk3U3ka08P0D30703VM0ES0Q406033U0ksE08QA46711kkU0k0MQAC73U10100ksMMC7U60107UkksQB08D23j01Uk0P0kK40C070k0m10Y40A0O1U1a63AQ0sFa3kXAAyDjzky7xzwEkkA7tV01U0VVU000320000220000640000AA0000AM0000AE0000DU0000TU0000600000C1"
 DeathText := "|<>*100$22.zzzzUzUw3w3l7l6ASAMtstXbXaASAQFgFkAEDUlUzzzzU"
 Text := "|<>*30$71.0000007zzzzy000000Dzzzzw000000Tzzzzs000000zzzzzk000001zzzzzU000003zzzzz0000007zzzzy000000Dzzzzw000000Tzzzzs000000zzzzzk000001zzzzzU000003zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+HauntedAcademy := "|<>*87$137.zzzzzzzzzzzwzzzzzzzbzzzwSDzzzzyDzzkzszzzzy7zzzswTzzzzwTzzVzlzzzzwDzzzlszzzzzszzz3z1zzzzsTzzzXlsaSN7UQ7k7y3wDWS0sCFz03UAQE20k70Ds3kC0s10A0y060MsU410A0Tl70M1U60M1w0AMll6CCAMlz26BlX6AMl3swFlXWCAM0lXy08T76AE1X7lslX64QMszX7s08z6AMkD6DXlU608skkr0DlwE60M1VCAT7XUC0FlUU70T3sEC0s30AMyTbWS9bbVkT4zDtky9sbUtn"
 
 cancel_boton := "|<>*138$82.zzwDzzzzzzzszzzz0DzzzzzzzXzzzs0TzzzzzzyDzzz01zzzzzzzszzzsDjzzzzrz7XzzzVzw0k3w3k6DzzyDzU307U60Mzzzszw0A0A0kEXzzzXzkkkkkz72DzzyDz7X7X7w08zzzsTwQASATk1XzzzkMk0lskX3y7zzz01037X040MDzzy060ASC0M1Uzzzy1y8lsy7k73zU"
 
+PlanetGreenie := "|<>*90$137.zzwTzzzzzzzzzzzzzzzyDzzw0szzzzzzDzs3zzzzzzwTzzs0lzzzzzyDz03zzzzzzszzzk1XzzzzzwTy0DzzzzzzzzzzXV7zzzzXszsSTnszXvzzszz7WD0A0w10Dlzs30Q1U770TyC4Q0M1k20TXUk40k30CA0Tw0Ms0k1V21y61UMEV20AMEzs0lllXX66DyC37lV64QMlVzk3XXX760QTwT6D060Msl07zXz766CATszsSAT7wTllX7zz7y60AQM1kTs0My0M1XX60TyDw60Mss3Uzs0ly0s376C0zwTwS8lls7lzs7Xy1s6CAS1y"
+WalledCity := "|<>*90$137.zzzzzsnzzz7zzwTzzzzzzzzwyTDzlXzzyDz0stzzzzzzzzksQDzX7zzwTw0Flzzzzzzzzlkszz6Dzzszk0zXzzzzzzzzXVlzyATXzlz3nz7rrzzzzzz2130AMw1k3yDy8073zzzzzz42A0Mlk307wTwE2CDzzzzzy00M0lXV20DkzskA8Tzzzzzw30llX764QTlzllwEzzzzzzw63XX6C0MszXzXXs3zzzzzzsA766AQTlVz3n77s7zzzzzzswS0A881U3z02C3kTzzzzzzlsy0MEM3U7z0AQ7kzzzzzzzbty8sks7WDz0syDXzzzzzzzzzzzzzzzzzzzzzy7zzzzzzzzzzzzzzzzzzzzzwTzzzzzzzzzzzzzzzzzzzzzszzzzzzzzzzzzzzzzzzzzzznzzzzzzU"
+SnowyTown := "|<>*89$137.z0zzzzzzzzz00Tzzzzzzzzzw0zzzzzzzzy00zzzzzzzzzzs1zzzzzzzzzsTzzzzzzzzzzlzzzsyzvjjzlz7rzTzzzzzzVz0D0FlUC7zXs2CAE3zzzzz0S0Q0V24QTz7U48EU7zzzzz0Q0M0W4MMzyD04EX07zzzzzUMsll00sXzwSC806CDzzzzzsllXX01k7zswQM0AQTzzzzllXX7607kDzlssk0sszzzzzU3760C4DkzzXk1kVllzzzzz0CCC0wMzVzz7k7X7XXzzzzzUwQS3wtz7zyDkTbD77zzzzzzzzzzzzwDzzzzzzzzzzzzzzzzzzzzzszzzzzzzzzzzzzzzzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzbzzzzzzzzzzzzzk"
+SandVillage := "|<>*90$137.zzzzzzzlzzzlXDzzzzzzzzzy1zzzzzXyTtX6Dzzzzzzzzzs1zzzzz7sTV6ATzzzzzzzzzk3zzzzyDsz7wMzzzzzzzzzzXzzzzzwTkwDslzvzrszzzzz3z0A0w0zlsslXk3U70Tzzzy0w0M1k1zVVlX7060A0zzzzy0s0k1U3zX7X6C0A0MEzzzzz0llXX77z2D6AQMMklVzzzzzlXX76CDz0yAMssll07zzzzXX66CAMTy1wMllVV37zzzzz060AQM0zy7skUU3060Tzzzy0S0Mss1zwDlV1U70C0zzzzz1y8nlsXzwzXX3WDYS1zzzzzzzzzzzzzzzzzzzxkzzzzzzzzzzzzzzzzzzzzzs3zzzzzzzzzzzzzzzzzzzzzU7zzzzzzzzzzzzzzzzzzzzzkzzzzzzU"
+NavyBay := "|<>*93$137.yDXzzzzzzU7zzzzzzzzzzzzwD7zzzzzz07zzzzzzzzzzzzsSDzzzzzy07zzzzzzzzzzzzkQTzrvjjwQDzvvzzzzzzzzzUMs1DUSDssQ03Vzzzzzzzzz0FU0C4QTl1k177zzzzzzzzy8X04QMMzW3U26DzzzzzzzzwE6CAEsXz73768zzzzzzzzzskAQM3k7yD6CA1zzzzzzzzzlkMks7kDwSAMQ3zzzzzzzzzXkk1kTkzs0M0wDzzzzzzzzz7lk3kzVzk1s1sTzzzzzzzzyTXl7nz7zU7sXlzzzzzzzzzzzzzzzwDzzzzz3zzzzzzzzzzzzzzzszzzzzyDzzzzzzzzzzzzzzzlzzzzzwTzzzzzzzzzzzzzzzbzzzzztzzzzzzzzzk"
+FiendCity := "|<>*89$137.zzwTzzzz7zzwTzzzzzzzzzzw08zzzzyDz0stzzzzzzzzzzs0FzzzzwTw0Flzzzzzzzzzzk0zzzzzszk0zXzzzzzzzzzzXzzlzzzlz3nz7rrzzzzzzzz7yC0k3k3yDy8073zzzzzzzy0QM1U707wTwE2CDzzzzzzzw0skV060DkzskAATzzzzzzzs1lX2CAQTlzllwFzzzzzzzzlzX0AQMszXzXXs3zzzzzzzzXz6DsslVz3n77s7zzzzzzzz7yA0llU3z02C3sTzzzzzzzyDwQ1XXU7z0AQ7kzzzzzzzzwTsw377WDz0syDXzzzzzzzzzzzzzzzzzzzzzy7zzzzzzzzzzzzzzzzzzzzzwTzzzzzzzzzzzzzzzzzzzzzszzzzzzzzzzzzzzzzzzzzzznzzzzzzzzU"
+SpiritWorld := "|<>*89$137.zzzzlzszzzzzzzzszszzzzzy1zzXzlnzntwzzzlzlzzzzzs1zz7zXXz3VkzzzXzXzzzzzk3zzzzz7z73Xzzz7z7zzzzzXzzzzbyDyC77XzaDyDzzzzz3y0sk4E3w84A1k4S0Tzzzzy0w0lU8U7wE8k3U8s0zzzzzy0s0X0lUTs01U30lk1zzzzzz0ll6DXXzkA376DXXXzzzzzzlXWAT77zkMCCAT777zzzzzXX24MyCDzUkQQMyCADzzzzz060MlwQ7z3ls0lwA0Tzzzzy0Q0lXssDz7Xs3XsA0zzzzzz1sbX7lwTyTbsD7swFzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzXzzzzzzzzzzzzzzzzzzzzzz7zzzzzzzzzzzzzzzzzzzzzyDzzzzzzzzzzzzzzzzzzzU"
+AntKingdom := "|<>*89$137.zzzzzzzzz7zzzzszzzzzzzzztzzzDz7aDzzzzlzzzzzzzzzVzzyDyC4TzzzzXzzzzzzzzz3zzwTwMTzzzzz7zzzzzzzzw3zzszsVzzzzjyDXzzjzzzzs7k30Dk7X0D0C0Q1k47zzzzU7U60TUT60Q0M0k1U0Dzzzz6D061z0yA0M0k1U300TzzzwACCCDy0wMslVXX76AMTzzzs0QQQTw0sllXX76CAMkzzzzU0MsszsVlXX26AAQMlVzzzz7sllkTlVX760A0M0lX3zzzwDlXXUzXV6CC0Q0s3X67zzzwzn77lz7aAQT8wFsD6CTzzzzzzzzzzzzzzvVzzzzzzzzzzzzzzzzzzzzzk7zzzzzzzzzzzzzzzzzzzzz0DzzzzzzzzzzzzzzzzzzzzzVzzzzzzzzzzU"
+MagicTown := "|<>*92$137.zzzzzzzXzzzzzzzzzzzzzzzwTszzzz7zz00TzzzzzzzzzzsTVzzzyDzy00zzzzzzzzzzzky3zzzzzzzszzzzzzzzzzzzUs7zzzzzTzlz7rzTzzzzzzz0kC0Q0lkDzXs2CAE3zzzzzy00M0k1X0Dz7U48EU7zzzzzwE8k1U360zyD04EX07zzzzzsklXX66ATzwSC806CDzzzzzlXX76CAMzzswQM0AQTzzzzzXz6AAMMlbzlssk0sszzzzzz7yA0M0lU7zXk1kVllzzzzzyDwQ0s1XUDz7k7X7XXzzzzzwzswFxX7VzyDkTbD77zzzzzzzzzzy7zzzzzzzzzzzzzzzzzzzzz0Tzzzzzzzzzzzzzzzzzzzzw0zzzzzzzzzzzzzzzzzzzzzy7zzzzzzzzzzzzzzzzU"
+HauntedAcademy := "|<>*87$137.zzzzzzzzzzzwzzzzzzzbzzzwSDzzzzyDzzkzszzzzy7zzzswTzzzzwTzzVzlzzzzwDzzzlszzzzzszzz3z1zzzzsTzzzXlsaSN7UQ7k7y3wDWS0sCFz03UAQE20k70Ds3kC0s10A0y060MsU410A0Tl70M1U60M1w0AMll6CCAMlz26BlX6AMl3swFlXWCAM0lXy08T76AE1X7lslX64QMszX7s08z6AMkD6DXlU608skkr0DlwE60M1VCAT7XUC0FlUU70T3sEC0s30AMyTbWS9bbVkT4zDtky9sbUtn"
+MagicHills := "|<>*90$137.zzzzzzzXzzzzslbzzzzzzzzwTszzzz7zzXslX7zzzzzzzzsTVzzzyDzz7lX6Dzzzzzzzzky3zzzzzzyDXyATzzzzzzzzUs7zzyzyTwT7wMyDzzzzzzz0kC0Q0lkDsyAMlk7zzzzzzy00M0k1X0Dk0MlXUDzzzzzzwE8k1U360zU0lX77zzzzzzzsUlXX66ATz01X6C1zzzzzzzlXX76CAMzyDX6AS1zzzzzzzXz6AAMMlbwT6AMz3zzzzzzz7yA0M0lU7syAMEF7zzzzzzyDwQ0s1XUDlwMkUUDzzzzzzwTswFwX7UzXsllVUzzzzzzzzzzzzi7zzzzzzzzzzzzzzzzzzzzz0Tzzzzzzzzzzzzzzzzzzzzw0zzzzzzzzzzzzzzzzzzzzzy7zzzzzzzzzzzzzzzzU"
+SpaceCenter := "|<>*89$137.z0zzzzzzzzw3zzzyDzzzzzzw0zzzzzzzzk1zzzwTzzzzzzs1zzzzzzzz03zzzszzzzzzzlzzzzzrwTwDDXzzlz7qTzzzVz0S0Q3UDszw1U60M30Tzzz0S0M0k20Tlzk30A0U60zzzz0Q0E1UA8T3zV20A3243zzzzUMsXX7skz7z64QQSA8zzzzzsll76Dk3yDy0Msss0lzzzzllV2AANXzwDATlllszXzzzzU30A0M10Dw081XXUk37zzzz0C0w0s30Tw0s3771k6DzzzzUwHwFsD0zw3s6CDXkATzzzzzszzzzzzzzzzzzzzzzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzXzzzzzzzzzzzzzzzzzzzzzz7zzzzzzzzzzzzzzzzzzzk"
+AlienSpaceship := "|<>*89$137.zzz77zzzzzzzzzzzzzzXz7zztyCDzzzzUTzzzzzzzz7yDzzVwQTzzzy0TzzzzzzzyDwTzz3szzzzzw0zzzzzzzzwTzzzw3lzwTzzszzzzznyDlszzzzs7XXUA0zkzUD0C1k60k3X0zU7760M1zUD0A0M10A1U761z6CCA8E1zUC080k648z06A3wAAQMkXXzkAQFVXwMECCAMzs0Msk377zwMsXX7s1kAQMlzU0FlXyCDsskV66AlzsMslVT7sVX0AQTk1U60A0U68llX0wDl170MszU70C0Q1UA1XX61wzn6D0llzkS9y8w7UQ776AHzzzzzzzzzzwTzzzzzzzzzszzzzzzzzzzzszzzzzzzzzzlzzzzzzzzzzzlzzzzzzzzzzXzzzzzzzzzzzXzzzzzzzzzz7U"
+FabledKingdom := "|<>*91$137.zzzzlzXzzyDzzlzzzzyDzzzw0DzXz7zzwTltXzzzzwTzzzs0Tz7yDzzszXV7zzzzszzzzk0zyDwTzzlz67zzzzzlzzzzXzzwTsz7zXy8TzzzvzXszzz7y0M3ls3U7w1sk3k3U70Q1y0M0k3XU60Ds7lU7060A0M1w0k1U37240TkDX060A0M0k3s1XX76CA8szUD6CAMMsllX7lz76CAQ0llz0CAQMsllXX6DXyAA8MszX3y8QMskVX376AT7w0M0kkX07wMMllU3060AMyDw0k3Uk70DssFXXU70C0slwTwFUDXkD4TltX77WD4S3lXzzzzzzzzzzzzzzzysTzzzzzzzzzzzzzzzzzzzzw1zzzzzzzzzzzzzzzzzzzzzk3zzzzzzzzzzzzzzzzzzzzzsTzzzzzU"
+RuinedCity := "|<>*88$137.zzzzszzzzyDzzszzzzzzzzzw0zzlzzzzwTy1lnzzzzzzzzs0zzXzzzzszs0XXzzzzzzzzk1zzzzzzzlzU1z7zzzzzzzzXVzzzzz7zXy7byDjjzzzzzz7WCAM1s3U7wTwE0C7zzzzzyC4QMk3U60DszsU4QTzzzzzw08slU3240TVzlUMEzzzzzzs0llX76A8szXzXXsVzzzzzzk1XX6CA0llz7z77k7zzzzzzXX66AQMzX3y7aCDkDzzzzzz720AMsk307y04Q7UzzzzzzyD60Mllk70Dy0MsDVzzzzzzwSS8lXXkD4Ty1lwT7zzzzzzzzzzzzzzzzzzzzzwDzzzzzzzzzzzzzzzzzzzzzszzzzzzzzzzzzzzzzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzbzzzzzzU"
+PuppetIsland := "|<>*91$137.zzzzzzzzzzzzzz7zzzzwTzzw0zzzzzzztzszyDzzzzszzzs0zzzzzzzlzlzwTzzzzlzzzk1zzzzzzzXzXzszzzzzXzzzXVzzzzzwT7z7Xlzvzzz7zzz7WCA1k7U81yA1Xk30D0DzzyC4QM1U60E3wM37060Q0Tzzw0Msk1048EDslyC0A0M0zzzs0llXWC8klzlUQQMMsllzzzk3XX74QE3XzXUMksllXXzzzXz6648EXz7z7kllVXX67zzz7y0A0k32C3yAFVU3760DzzyDy0M3UD0Q7wM31U6CC0TzzwTy8lD4z0yDssD7WAQS8zzzzzzzXyDzzzzzzzzzzzzzzzzzzzz7wTzzzzzzzzzzzzzzzzzzzyDszzzzzzzzzzzzzzzzzzzzwTlzzzzzzzzzzzzzzzzU"
+VirtualDungeon := "|<>*87$137.zzzXzzzzzzlzzzzzzzzzzzzwzn7znzzzzXz0Dzzzzzzzzzkz2DzXzzzz7y0DzzzzzzzzzlyDzz7zzzyDw0DzzzzzzzzzVsTzCDzzzwTssCyxzzvwTlzXllU02CC0MzlsMsk3k3UC0z33X004QM0lzXsllU7060M1z6D61UMsk1Xz7lXX060A8E3y4SATXllXX7yDX76CAMMkXby1wMz7XX76DwS6CAQMsU37Dw3slyD26AATssQ8MskVXyCTwDlXw60A0MTk0s0llU30A0zsTX7sC0Q0kTU3s1XXU70Q1ztz6DwS8wFlz0TsX77WD0w7zzzzzzzzzzzzzzzzzysTzzzzzzzzzzzzzzzzzzzzs1zzzzzzzzzzzzzzzzzzzzzk3zzzzzzzzzzzzzzzzzzzzzsTzzzU"
+SnowyKingdom := "|<>*87$137.zzzzzzzzzzzzz7zzzzszzzzy1zzzzzzzzz7aDzzzzlzzzzs1zzzzzzzzyC4TzzzzXzzzzk3zzzzzzzzwMTzzzzz7zzzzXzzzlxzrTTsVzzzzjyDXxjz3y0S0XX0QDk7X0D0C0Q1k4y0w0s1248szUT60Q0M0k1U1y0s0k148klz0yA0M0k1U303z0llXW01l7y0wMslVXX76ATzlXX7603UDw0sllXX76CAMzXX76CA0DUTsVlXX26AAMMlz06CA0Q8TVzlVX760A0M0lXy0QQQ1slz3zXV6CC0Q0s3X7z1ssw7tnyDz7aAQS8wFsD6DzzzzzzzzsTzzzzzvVzzzzzzzzzzzzzzlzzzzzzk7zzzzzzzzzzzzzzXzzzzzz0DzzzzzzzzzzzzzzDzzzzzzVzzzzzzU"
+DungeonThrone := "|<>*87$137.zzzzzzzzzzzzzzzzyDzzzzzw0zzzzzzzzzzzzk04Tzzzzzs0zzzzzzzzzzzzU08zzzzzzk0zzzzzzzzzzzzy7lzzzzzzXUzzzzzjlz7zzzwTXzwyDrz7VXX0D0C0s3U7zsz0C0k70yDX760Q0M1U30Dzly0Q1061wT6CA0M0kV060DzXw0M60A3syAQMslVX2CAQTz7sslwQMzlsMsllXX0AQMszyDllXkslzXVkVXX66DssllzwTXX7llXz03U3760A0k1XXzsz76DU37y0DU6CC0Q1k777zlyCATUCDw1zWAQT8w3kSCDzXwQMzUwTzzzzzzvVzzzzzzzzzzzzzzzzzzzzzk7zzzzzzzzzzzzzzzzzzzzz0DzzzzzzzzzzzzzzzzzzzzzVzzzzzzzzzzzzzzzU"
+MountainTemple := "|<>*88$137.zzzzzzzzzzzzXzzzzzzzzzzwTszzzzzzDzz7zzk07zzzzzsTVzzzzzyDzyDzzU0Dzzzzzky3zzzzzwTzzzzzy7zzzzzzUs7lzzzzszzzzzzwTlzzjzz0kC0ssk30A0lU7zsy0k460y00M1llU60E1X0Dzls1U0A1wE8k1XX061U360DzXkV00M3sUlXX76CCD76AQTz7X2AMFrlXX76CAQQQCAMszyC0AMkXjXz6CA8MsswMMllzwSDslV2T7yA0M0llkM0lXXzsw0lX20yDwQ1s1XXUs1X77zlw1X641wTsw7sX77lsX6CDzXw36CMbzzzzzzzzzzzzzzzzzzzzzlzzzzzzzzzzzzzzzzzzzzzzXzzzzzzzzzzzzzzzzzzzzzz7zzzzzzzzzzzzzzzzzzzzzyDU"
+RainVillage := "|<>*86$137.zzzzszzzzzlXDzzzzzzzzzzw0zzlzzyTtX6Dzzzzzzzzzzs0zzXzzsTV6ATzzzzzzzzzzk1zzzzzsz7wMzzzzzzzzzzzXVzzzzzkwDslzvzrszzzzzz7X0AM1zlsslXk3U70TzzzzyC40Mk3zVVlX7060A0zzzzzw080lU3zX7X6C0A0MEzzzzzs0llX77z2D6AQMMklVzzzzzk1XX6CDz0yAMksll07zzzzzXX66AQTy1wMllVV37zzzzzz720AMszy7skUU3060TzzzzyD60MllzwDlV1U70C0zzzzzwSC8lXXzwzXX3WD4S1zzzzzzzzzzzzzzzzzzzxkzzzzzzzzzzzzzzzzzzzzzs3zzzzzzzzzzzzzzzzzzzzzU7zzzzzzzzzzzzzzzzzzzzzkzzzzzzzU"
+
+
+
+
+global verificaçao_de_caminho := 0
 global lose_streak := 0
 
 SetupMacro() {
@@ -110,30 +137,40 @@ GoToRaids() {
     SendInput ("{Tab}")
     AddToLog("For support, make sure to click on the discord icon above")
     loop {
-        if (ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)) {
-            loop{
-                AddToLog ("esperand sair da capsula")
-                if (!ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)){
-                    AddToLog  ("esperando entrar na fase") 
+        
 
-                    break
+            if (ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)) {   
+                    if (!ok := FindText(&X, &Y, 60, 278, 196, 303, 0, 0, HauntedAcademy)){
+                        BetterClick(408,520)
+                    } 
+                loop{
+                    Sleep 3000
+                    AddToLog ("esperand sair  da capsula")
+                    if (!ok := FindText(&X, &Y, 361, 542, 507, 596, 0, 0, cancel_boton)){
+                        Sleep 1000
+                        AddToLog  ("esperando entrar na fase") 
+                        
+
+                        break
+                    }
                 }
+                break
             }
-            break
-        }
-        if (ok := FindText(&X, &Y, 10, 70, 350, 205, 0, 0, LoadingScreen)) {
-            AddToLog("Found LoadingScreen, stopping loop")
-            break
-        }
-        if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart)) {
-            AddToLog("Found VoteStart, stopping loop")
-            break
-        }
-        if (ok := FindText(&X, &Y, 338, 505, 536, 572, 0, 0, ClaimText)) ; daily reward
-        {
-            BetterClick(406, 497)
-            Sleep 3000
-        }
+        
+        
+            if (ok := FindText(&X, &Y, 10, 70, 350, 205, 0, 0, LoadingScreen)) {
+                AddToLog("Found LoadingScreen, stopping loop")
+                break
+            }
+            if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart)) {
+                AddToLog("Found VoteStart, stopping loop")
+                break
+            }
+            if (ok := FindText(&X, &Y, 338, 505, 536, 572, 0, 0, ClaimText)) ; daily reward
+            {
+                BetterClick(406, 497)
+                Sleep 3000
+            }
 
         AddToLog("Attempting to go to raids...")
 
@@ -146,6 +183,30 @@ GoToRaids() {
         Sleep 1000
         ; HoldKey("d", 2000)
         ; Sleep 500
+  
+        loop 5 {
+               if ( FindText(&X, &Y, 60, 278, 196, 303, 0, 0, PlanetGreenie) 
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, WalledCity) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, SnowyTown) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, SandVillage) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, NavyBay) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, FiendCity) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, SpiritWorld) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, AntKingdom) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, MagicTown) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, MagicHills) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, SpaceCenter) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, AlienSpaceship) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, FabledKingdom) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, RuinedCity) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, PuppetIsland) ||
+                    FindText(&X, &Y, 60, 278, 196, 303, 0, 0, VirtualDungeon)) {
+                    BetterClick(408,520)
+                }
+
+        }
+
+
 
         BetterClick(720, 241) ; namek planet thing
         Sleep 1000
@@ -156,6 +217,7 @@ GoToRaids() {
         }
 
         BetterClick(700, 425) ; Haunted Academy Box
+        BetterClick(700, 425)
         Sleep 400
 
         BetterClick(290, 240) ; Infinite
@@ -170,6 +232,10 @@ GoToRaids() {
         BetterClick(400, 460) ; cancel
         Sleep 200
     }
+
+
+    
+   
     LoadedLoop()
     OnSpawnSetup()
     PressVoteStart()
@@ -191,14 +257,11 @@ Replaying() {
         Reconnect()
         sleep 1000 ; cd wont spam loops
     }
-    AddToLog("tese1")
     LoadedLoop()
-    AddToLog("tese2")
-    Sleep 600
-    StartedLoop()
-    AddToLog("tese3")
     OnSpawnSetup()
-    AddToLog("tese4")
+    
+    PressVoteStart()
+    StartedLoop()
     TryPlacingUnits()
 }
 
@@ -457,11 +520,11 @@ LookDown() {
 LoadedLoop() {
     AddToLog("Waiting to load in")
     loop {
-        Sleep 1000
+        Sleep 100
         if (ok := FindText(&X, &Y, 326, 60, 547, 173, 0, 0, VoteStart))
         {
             AddToLog("Loaded in")
-            Sleep 1000
+            Sleep 100
             break
         }
         Reconnect()
@@ -668,40 +731,61 @@ AntiCaptcha() {
 }
 
 OnSpawnSetup() {
+    global
     SendInput ("{Tab}")
     TPtoSpawn()
-    Sleep 200
+    Sleep 1000
     LookDown()
-    Sleep 200
-
+    Sleep 1000
     loop {
-        Sleep 500
-        if PixelSearch(&Px, &Py, 385, 0, 430, 25, 0x091512,0) {
+        Sleep 1000
+        if PixelSearch(&Px, &Py, 385, 0, 430, 25, 0x091512) {
             AddToLog("Correct Angle")
             break
         }
         else {
+            if PixelSearch(&Px, &Py, 757, 331, 824, 439, 0x091512, 10) {
+                global verificaçao_de_caminho := 1  
+                break
+            }
             AddToLog("Incorrect Angle. Performing 90-degree turn.")
             ; Simulate pressing the "Left" key for a 90-degree turn
             SendInput("{Left down}")  ; Hold the "Left" key down
             Sleep 750                 ; Adjust this value to control the turn duration (90 degrees)
             SendInput("{Left up}")    ; Release the "Left" key
-            Sleep 100
+
             ; Ensure the key is fully processed before proceeding
             KeyWait "Left"
-            Sleep 1000                ; Optional: Add a delay after the turn if needed
+            ; Optional: Add a delay after the turn if needed
         }
     }
+    if (verificaçao_de_caminho = 0) {
 
-    SendInput ("{d up}")
-    Sleep 100
-    SendInput ("{d down}")
-    Sleep 5000
-    SendInput ("{d up}")
-    KeyWait "d"
+        SendInput ("{d up}")
+        Sleep 100
+        SendInput ("{d down}")
+        Sleep 5200
+        SendInput ("{d up}")
+        KeyWait "d"
+    }
+    else {
+        SendInput ("{s up}")
+        Sleep 100
+        SendInput ("{s down}")  
+        Sleep 5200
+        SendInput ("{s up}")
+        KeyWait "s"
+        loop 3 {
+            SendInput("{Left down}")  ; Hold the "Left" key down
+            Sleep 750                 ; Adjust this value to control the turn duration (90 degrees)
+            SendInput("{Left up}")    ; Release the "Left" key
 
-    Sleep 500
+            ; Ensure the key is fully processed before proceeding
+            KeyWait "Left"
+        }
+    }
 }
+
 
 Reconnect() {
     ; Check for Disconnected Screen
@@ -742,3 +826,5 @@ HoldKey(key, duration) {
     SendInput ("{" key " up}")
     KeyWait key ; Wait for "d" to be fully processed
 }
+
+
